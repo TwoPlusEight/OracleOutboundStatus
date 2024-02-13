@@ -6,7 +6,7 @@
 ### 用处
 展示所有甲骨文账号对应实例以及总流量, 数据来源于甲骨文API  
 间隔固定时间(默认45分钟一次)刷新流量  
-示例: [甲骨文云流量](https://oracle-cloud.twopluseight.net/)
+示例: [甲骨文云流量](https://oracle-cloud.twopluseight.net/)  
 ![1707840507805.png](https://img10.360buyimg.com/babel/jfs/t20260213/132044/32/39473/83260/65cb9402F7b8eb5d7/a96d9b8a005a3aad.png)
 ### 使用
 开发测试的环境为 Python3.11
@@ -45,7 +45,7 @@ pip install -r ./requirements.txt
 ```
 6. 创建`configs`并上传甲骨文API文件至此文件夹  
 配置文件的文件名称必须为.conf(在不修改代码的情况下)  
-文件第一行必须为[]开始且不为空
+文件第一行必须为[]开始且不为空  
 最终网页左侧列表的账号标题为配置文件[]中的标题
 7. 启动
 ```bash
