@@ -26,7 +26,7 @@ app.add_middleware(
     allow_headers=["*"],
 )
 public_json_dir = "./static/data.json"
-refresh_time = 10 # 设定刷新时间, 单位分钟
+refresh_time = 45 # 设定刷新时间, 单位分钟
 
 
 def main():
