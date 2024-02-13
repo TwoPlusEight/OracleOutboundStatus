@@ -7,6 +7,7 @@
 展示所有甲骨文账号对应实例以及总流量, 数据来源于甲骨文API  
 间隔固定时间(默认10分钟一次)刷新流量  
 示例: [甲骨文云流量](https://oracle-cloud.twopluseight.net/)
+![1707840507805.png](https://img10.360buyimg.com/babel/jfs/t20260213/132044/32/39473/83260/65cb9402F7b8eb5d7/a96d9b8a005a3aad.png)
 ### 使用
 开发测试的环境为 Python3.11
 
