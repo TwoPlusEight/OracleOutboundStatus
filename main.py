@@ -4,6 +4,8 @@ from base.oracle import OracleClientUtil
 from oracle.outbound import get_data
 import glob, re, json, asyncio
 from fastapi import FastAPI
+from fastapi.responses import FileResponse, Response
+from fastapi.middleware.cors import CORSMiddleware
 
 
 @asynccontextmanager
@@ -16,9 +18,15 @@ async def lifespan(app: FastAPI):
 
 app = FastAPI(lifespan=lifespan)
 app.setup()
-
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=['*'],
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
 public_json_dir = "./static/data.json"
-refresh_time = 10
+refresh_time = 10 # 设定刷新时间, 单位分钟
 
 
 def main():
@@ -48,6 +56,19 @@ async def timer(separate_time):
     while True:
         refresh_json()
         await asyncio.sleep(separate_time * 60)
+
+
+@app.get("/")
+async def index():
+    return FileResponse("./static/index.html")
+
+# 想不到其他解决办法, 太菜, 能用就行
+@app.get("/assets/{filename:path}")
+async def assets(filename: str):
+    if '.js' in filename:
+        return FileResponse(f"./static/assets/{filename}", media_type="application/javascript")
+    if '.css' in filename:
+        return FileResponse(f"./static/assets/{filename}", media_type="text/css")
 
 
 @app.get("/data")
