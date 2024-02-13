@@ -25,7 +25,7 @@ python get-pip.py
 ```
 3. 克隆项目到本地
 ```bash
-git clone https://github.com/TwoPlusEight/OracleStatusBackend
+git clone https://github.com/TwoPlusEight/OracleOutboundStatus
 cd ./OracleStatusBackend
 ```
 4. 安装并创建虚拟环境(可跳过)
