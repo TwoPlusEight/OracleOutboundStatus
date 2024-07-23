@@ -1,0 +1,244 @@
+{
+  "code": 200,
+  "OracleCloud": [
+    {
+      "name": "NSXS_Tokyo",
+      "region": "ap-tokyo-1",
+      "subsStartTime": "2023-12-02",
+      "data": {
+        "outbound": 0.1576,
+        "instance": [
+          {
+            "name": "instance-20231206-1929",
+            "shape": "VM.Standard.E2.1.Micro",
+            "cpu": "2.0 GHz AMD EPYC\u2122 7551 (Naples)",
+            "vnic": [
+              {
+                "name": "instance-20231206-1929",
+                "outbound": 0.1576
+              }
+            ]
+          }
+        ],
+        "bucket": {
+          "requests": 0.007,
+          "outbound": 0.0
+        }
+      }
+    },
+    {
+      "name": "Singapore West-Ser4im",
+      "region": "ap-singapore-2",
+      "subsStartTime": "2024-07-18",
+      "data": {
+        "outbound": 21.6693,
+        "instance": [
+          {
+            "name": "instance-20240718-2348",
+            "shape": "VM.Standard.A1.Flex",
+            "cpu": "3.0 GHz Ampere\u00ae Altra\u2122",
+            "vnic": [
+              {
+                "name": "\u5df2\u5220\u9664\u7684\u7f51\u5361",
+                "outbound": 21.6691
+              }
+            ]
+          },
+          {
+            "name": "instance-20240721-1546",
+            "shape": "VM.Standard.A1.Flex",
+            "cpu": "3.0 GHz Ampere\u00ae Altra\u2122",
+            "vnic": [
+              {
+                "name": "instance-20240721-1546",
+                "outbound": 0.0002
+              },
+              {
+                "name": "vnic20240721080227",
+                "outbound": 0.0
+              },
+              {
+                "name": "\u5df2\u5220\u9664\u7684\u7f51\u5361",
+                "outbound": 0.0
+              },
+              {
+                "name": "vnic20240721080458",
+                "outbound": 0.0
+              }
+            ]
+          }
+        ],
+        "bucket": {
+          "requests": 0.0,
+          "outbound": 0.0
+        }
+      }
+    },
+    {
+      "name": "NSXS_Santiago2",
+      "region": "sa-santiago-1",
+      "subsStartTime": "2023-05-20",
+      "data": {
+        "outbound": 2.2916,
+        "instance": [
+          {
+            "name": "instance-20240405-1215",
+            "shape": "VM.Standard.E2.1.Micro",
+            "cpu": "2.0 GHz AMD EPYC\u2122 7551 (Naples)",
+            "vnic": [
+              {
+                "name": "instance-20240405-1215",
+                "outbound": 0.8085
+              }
+            ]
+          },
+          {
+            "name": "instance-20240414-1620",
+            "shape": "VM.Standard.E2.1.Micro",
+            "cpu": "2.25 GHz AMD EPYC\u2122 7742 (Rome)",
+            "vnic": [
+              {
+                "name": "instance-20240414-1620",
+                "outbound": 1.4831
+              }
+            ]
+          }
+        ],
+        "bucket": {
+          "requests": 0.0,
+          "outbound": 0.0
+        }
+      }
+    },
+    {
+      "name": "NSXS_Santiago",
+      "region": "sa-santiago-1",
+      "subsStartTime": "2021-11-12",
+      "data": {
+        "outbound": 2.422,
+        "instance": [
+          {
+            "name": "23-6-25 23:14",
+            "shape": "VM.Standard.E2.1.Micro",
+            "cpu": "2.0 GHz AMD EPYC\u2122 7551 (Naples)",
+            "vnic": [
+              {
+                "name": "23-6-25 23:14",
+                "outbound": 0.7549
+              }
+            ]
+          },
+          {
+            "name": "23-6-25 23:14",
+            "shape": "VM.Standard.E2.1.Micro",
+            "cpu": "2.0 GHz AMD EPYC\u2122 7551 (Naples)",
+            "vnic": [
+              {
+                "name": "23-6-25 23:14",
+                "outbound": 1.6671
+              }
+            ]
+          }
+        ],
+        "bucket": {
+          "requests": 0.0,
+          "outbound": 0.0
+        }
+      }
+    },
+    {
+      "name": "Dead",
+      "region": "us-phoenix-1",
+      "subsStartTime": "Error",
+      "data": {
+        "outbound": 0.0,
+        "instance": [
+          {
+            "name": "instance-20230921-1725",
+            "shape": "VM.Standard.E2.1.Micro",
+            "cpu": "2.25 GHz AMD EPYC\u2122 7742 (Rome)",
+            "vnic": [
+              {
+                "name": "None",
+                "outbound": 0.0
+              }
+            ]
+          }
+        ],
+        "bucket": {
+          "requests": 0.0,
+          "outbound": 0.0
+        }
+      }
+    },
+    {
+      "name": "Italy-Ser4im",
+      "region": "eu-milan-1",
+      "subsStartTime": "2024-07-14",
+      "data": {
+        "outbound": 0.0517,
+        "instance": [
+          {
+            "name": "instance-20240716-2317",
+            "shape": "VM.Standard.E2.1.Micro",
+            "cpu": "2.55 GHz AMD EPYC\u2122 7J13 (Milan)",
+            "vnic": [
+              {
+                "name": "instance-20240716-2317",
+                "outbound": 0.0517
+              }
+            ]
+          }
+        ],
+        "bucket": {
+          "requests": 0.0,
+          "outbound": 0.0
+        }
+      }
+    },
+    {
+      "name": "Seoul",
+      "region": "ap-seoul-1",
+      "subsStartTime": "2023-04-04",
+      "data": {
+        "outbound": 40.4576,
+        "instance": [
+          {
+            "name": "ARM",
+            "shape": "VM.Standard.A1.Flex",
+            "cpu": "3.0 GHz Ampere\u00ae Altra\u2122",
+            "vnic": [
+              {
+                "name": "enp2s0",
+                "outbound": 3.0684
+              },
+              {
+                "name": "enp1s0",
+                "outbound": 0.0771
+              },
+              {
+                "name": "enp0s6",
+                "outbound": 21.4465
+              }
+            ]
+          },
+          {
+            "name": "instance-20230625-0038",
+            "shape": "VM.Standard.E2.1.Micro",
+            "cpu": "2.0 GHz AMD EPYC\u2122 7551 (Naples)",
+            "vnic": [
+              {
+                "name": "instance-20230625-0038",
+                "outbound": 15.8486
+              }
+            ]
+          }
+        ],
+        "bucket": {
+          "requests": 0.0003,
+          "outbound": 0.017
+        }
+      }
+    }
+  ]
+}
