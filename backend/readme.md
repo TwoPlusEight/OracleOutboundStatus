@@ -5,7 +5,7 @@
 ## 甲骨文云批量查询流量后端(包括前端网页)
 ### 用处
 展示所有甲骨文账号对应实例以及总流量, 数据来源于甲骨文API  
-间隔固定时间(默认45分钟一次)刷新流量  
+间隔固定时间(默认1800分钟一次)刷新流量  
 示例: [甲骨文云流量](https://oracle-cloud.twopluseight.net/)  
 ![1707840507805.png](https://img10.360buyimg.com/babel/jfs/t20260213/132044/32/39473/83260/65cb9402F7b8eb5d7/a96d9b8a005a3aad.png)
 ### 使用
@@ -26,7 +26,7 @@ python get-pip.py
 3. 克隆项目到本地
 ```bash
 git clone https://github.com/TwoPlusEight/OracleOutboundStatus
-cd ./OracleStatusBackend
+cd ./OracleOutboundStatus/backend
 ```
 4. 安装并创建虚拟环境(可跳过)
 ```bash
